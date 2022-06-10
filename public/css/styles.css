@@ -9,7 +9,46 @@ elemnts in the HTML file. */
   --sec-color: #2666CF;
 }
 
+body{
+  align-items: center;
+}
+
 /*Here the rest of CSS*/
+div.mainContent {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  width: auto;
+  margin: 2vw;
+  align-items: center;
+  justify-items: center;
+  padding: 1vw;
+  background-color: yellow;
+}
+
+div.search {
+  background-color: blue;
+  grid-column:2/3;
+  width: 80%;
+  margin: 1vw;
+  padding: 1vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.search form {
+  background-color: pink;
+  margin: 1vw;
+  padding: 1vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.search form input, button {
+  margin: 1vw;
+  padding: 1vw;
+}
 
 /*Footer*/
 footer {
@@ -33,12 +72,14 @@ footer {
 }
 
 /* RESPONSIVE */
-@media screen and (min-width: 610px) {
+/* Extra small Phones*/
+@media screen and (min-width: 768px) {
 }
 
-
-@media screen and (min-width: 720px) {
+/* Small Tablets */
+@media screen and (min-width: 992px) {
 }
 
-@media screen and (min-width: 1024px) {
+/* Medium Desktops */
+@media screen and (min-width: 1200px) {
 }
