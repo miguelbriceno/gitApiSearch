@@ -1,0 +1,30 @@
+{
+  "name": "gitapisearch",
+  "version": "1.0.0",
+  "description": "Git Users Search",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguelbriceno/gitApiSearch.git"
+  },
+  "keywords": [
+    "Git",
+    "Search"
+  ],
+  "author": "Miguel Briceño",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miguelbriceno/gitApiSearch/issues"
+  },
+  "homepage": "https://github.com/miguelbriceno/gitApiSearch#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "colors": "^1.4.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "lodash": "^4.17.21"
+  }
+}
